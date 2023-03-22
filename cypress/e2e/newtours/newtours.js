@@ -12,3 +12,4 @@ When('user logged in', ()=>{
 Then('user is displayed home screen', ()=>{
     cy.get("a[aria-label='Gmail (opens a new tab)']").click()
 })
+add below line
